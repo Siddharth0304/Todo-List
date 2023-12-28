@@ -1,0 +1,80 @@
+body{
+    background-color: black;
+    color: orangered;
+}
+h1{
+    text-align: center;
+    font-size: 3rem;
+    
+}
+.todo{
+    height: 2rem;
+    width: 90%;
+    display:flex;
+    justify-content: space-between; 
+    margin-bottom: 1%;
+    flex-wrap: wrap;
+    font-size: 1.5rem;
+    align-items: center;
+    margin-left: 0px;
+    color: orangered;
+    border-radius: 1rem;
+    font-weight: bold;
+    transition: 0.15s ease-in-out;
+}
+
+.todo:hover{
+    background-color: lightgray;
+}
+
+.delete{
+    margin-right: 16px;
+    height: 1.5rem;
+    width: 1.5rem;
+    border-radius: 50%;
+    border: 1px;
+    background-color: grey;
+    color: black;
+    font-weight: bold;
+        
+}
+
+.delete:hover{
+    cursor:pointer;
+    
+}
+
+li{
+    list-style-type:none;
+    padding-left: 1rem;
+}
+
+.search{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1.5rem;
+    
+}
+
+input{
+    margin-right: 0.5rem;
+    width: 25%;
+    height: 2rem;
+    background-color: lightgrey;
+    border: none;
+    font-size: 1rem;
+    
+}
+
+.new{
+    text-decoration: line-through;
+    opacity: 0.75;
+}
+
+.ok{
+    background-color: orangered;
+    border-radius: 5%;
+    border: none;
+    font-weight: bold;
+}
+
