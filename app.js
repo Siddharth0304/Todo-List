@@ -34,7 +34,7 @@ ul.addEventListener('click',function(event){
         let li=event.target;
         li.classList.add("new");
     }
-})
+})   // To Create Strike off effect on to elements
 
 // let delbtns=document.querySelectorAll(".delete");
 // for(delb of delbtns){
